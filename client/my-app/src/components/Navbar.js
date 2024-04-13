@@ -1,6 +1,14 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faCarSide,
+  faDriversLicense,
+  // faHistory,
+  // faPerson
+} from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
@@ -20,18 +28,32 @@ function NavBar() {
             defaultActiveKey="/"
           >
             <Nav.Link as={Link} to="/">
+              <FontAwesomeIcon icon={faHome} className="px-1"></FontAwesomeIcon>
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/ride">
+              <FontAwesomeIcon
+                icon={faCarSide}
+                className="px-1"
+              ></FontAwesomeIcon>
               Ride
             </Nav.Link>
             <Nav.Link as={Link} to="/drive">
+              <FontAwesomeIcon
+                icon={faDriversLicense}
+                className="px-1"
+              ></FontAwesomeIcon>
               Drive
             </Nav.Link>
             <Nav.Link as={Link} to="/yourrides">
+              {/* <FontAwesomeIcon
+                icon={faHistory}
+                className="px-1"
+              ></FontAwesomeIcon> */}
               Your Rides
             </Nav.Link>
             <Nav.Link as={Link} to="/about">
+              {/* <FontAwesomeIcon icon={faPerson} className="px-1"></FontAwesomeIcon> */}
               About Us
             </Nav.Link>
           </Nav>
