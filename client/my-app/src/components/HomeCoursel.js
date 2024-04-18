@@ -15,9 +15,10 @@ function HomeCarousel() {
               objectPosition: "bottom",
               width: "100%",
               height: "100%",
+              filter: "brightness(50%)",
             }}
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="d-md-block text-center text-light p-3 w-100 position-absolute top-0 start-0 end-0">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -26,15 +27,15 @@ function HomeCarousel() {
           <Image
             src="./images/slide-1.jpg"
             fluid
-                      style={{
-            
+            style={{
               objectFit: "cover",
               objectPosition: "bottom",
               width: "100%",
               height: "100%",
+              filter: "brightness(50%)",
             }}
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="d-md-block text-center text-light p-3 w-100 position-absolute top-0 start-0 end-0">
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
@@ -48,9 +49,10 @@ function HomeCarousel() {
               objectPosition: "bottom",
               width: "100%",
               height: "100%",
+              filter: "brightness(50%)",
             }}
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="d-md-block text-center text-light p-3 w-100 position-absolute top-0 start-0 end-0">
             <h3>Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.

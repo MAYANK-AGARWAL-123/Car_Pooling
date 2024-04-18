@@ -102,18 +102,18 @@ export default function Footer() {
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
-                <FontAwesomeIcon icon={faHome} />
+                <FontAwesomeIcon icon={faHome} className="px-1"/>
                 New York, NY 10012, US
               </p>
               <p>
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faEnvelope} className="px-1"/>
                 info@example.com
               </p>
               <p>
-                <FontAwesomeIcon icon={faPhone} /> + 01 234 567 88
+                <FontAwesomeIcon icon={faPhone} className="px-1"/> + 01 234 567 88
               </p>
               <p>
-                <FontAwesomeIcon icon={faPrint} /> + 01 234 567 89
+                <FontAwesomeIcon icon={faPrint} className="px-1"/> + 01 234 567 89
               </p>
             </MDBCol>
           </MDBRow>
@@ -124,7 +124,7 @@ export default function Footer() {
         className="text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2024 Copyright:
+        © 2024 Copyright:irider.com
         <Link></Link>
       </div>
     </MDBFooter>

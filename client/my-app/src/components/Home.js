@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       {/* <h1>Home COMPONENT</h1> */}
-      <Header></Header>
+      <Header/>
       
     </div>
   );

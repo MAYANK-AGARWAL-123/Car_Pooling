@@ -18,7 +18,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="light">
       <Container className="justify-content-between align-items-center">
-        <Navbar.Brand href="/">iRider</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">iRider</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
